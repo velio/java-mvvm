@@ -1,0 +1,3 @@
+import org.gradle.api.artifacts.*
+
+apply plugin: 'war' // To add "clean" task to the root project.
