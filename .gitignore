@@ -13,3 +13,8 @@ hs_err_pid*
 
 # Netbeans gradle cache folder
 .nb-gradle/
+/src/main/EJBModule1/nbproject/private/
+/src/main/nbproject/private/
+/src/test/nbproject/private/
+/src/test/build/
+/src/test/dist/
