@@ -5,11 +5,15 @@
  */
 package net.velyo.mvvm;
 
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Named;
+
 /**
  *
  * @author Velio
  */
-//@Named
+@Named
+@RequestScoped
 public class ModelState {
     
 }
