@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.velyo.mvvm;
+package net.velyo.mvvm.annotation;
 
 /**
  *
  * @author velyo.ivanov
  */
-public class DefaultModelBinder {
+public @interface FormBinder {
 	
 }

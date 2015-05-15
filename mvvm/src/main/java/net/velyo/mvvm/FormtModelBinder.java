@@ -9,6 +9,6 @@ package net.velyo.mvvm;
  *
  * @author velyo.ivanov
  */
-public class MultipartModelBinder extends ModelBinder {
+public class FormtModelBinder extends ModelBinder {
 	
 }
