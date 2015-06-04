@@ -39,7 +39,7 @@ public abstract class AbstractModel implements Model {
         return this.getClass();
     }
 
-    @java.lang.Override
+    @Override
     public void process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         this.bind(request);
@@ -48,8 +48,8 @@ public abstract class AbstractModel implements Model {
         if("POST".equalsIgnoreCase(request.getMethod())) {
             boolean valid;
 
-            if (IValidatable.class.isAssignableFrom(this.getClass()))
-                ((IValidatable) this).validate(state);
+            if (Validatable.class.isAssignableFrom(this.getClass()))
+                ((Validatable) this).validate(state);
 
             if (valid = state.isValid())
                 valid = this.save(request);
